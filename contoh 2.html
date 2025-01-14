@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contoh.css" >
+    </head>
+   
+
+<form>
+    <div class="container">
+        <div class="title">Form Biodata Siswa</div>
+    </div>
+    <br/>
+    <div class="user-details"></div>
+    <div class="input-box">
+        <label for="fullName">Nama Lengkap</label>
+        <br/>
+        <input id="fullName" name="Nama Lengkap" placeholder="Masukkan nama lengkap"/>
+    </div>
+
+    <div>
+        <label for="text">Alamat</label>
+        <br/>
+        <input id="text" name="Alamat" placeholder="Masukkan alamat lengkap"/>
+    </div>
+
+    <div>
+        <label for="text">Tempat Lahir</label>
+        <br/>
+        <input id="text" name="Tempat Lahir" placeholder="tempat lahir"/>
+    </div>
+
+    <div>
+        <label for="text">Tanggal Lahir</label>
+        <br/>
+        <input type="date" id="text" name="Tanggal Lahir" required/>
+    </div>
+
+    <div>
+        <label for="text">Jenis Kelamin</label>
+        <br/>
+        <label>
+        <input type="radio"  name="Jenis Kelamin" value="Laki-Laki" required/>
+        Laki-Laki
+    </label>
+    <br/>
+    <label>
+        <input type="radio" name="Jenis Kelamin" value="Perempuan" required/> Perempuan
+    </label>
+    </div>
+
+    <div>
+        <label for="text">Hobby</label>
+        <br/>
+        <label>
+            <input type="checkbox" name="Hobby" value="Menari" required/>Menari 
+        </label>
+        <br/>
+        <label>
+            <input type="checkbox" name="Hobby" value="Membaca" required/>Membaca
+        </label>
+        <br/>
+        <label>
+            <input type="checkbox" name="Hobby" value="Rebahan" required/>Rebahan
+        </label>
+    </div>
+
+    <div>
+        <label for="text">Kelas</label>
+        <br/>
+        <select name="Kelas">
+            <br/>
+            <option value="XPPLG1">XPPLG1</option>
+            <option value="XPPLG2">XPPLG2</option>
+        </select>
+        
+    </div>
+<br/>
+    <button type="Submit">Submit</button>
+
+</form>
+</html>
